@@ -14,3 +14,14 @@ for i in range(1, n+1):
     for j in range(i):
         print("*", end="")
     print()
+
+#loop counter
+
+total_sum = 0
+num = 1
+
+while num <= 10:
+    total_sum += num
+    num += 1
+
+print(f"The sum of the first 10 natural is: {total_sum}")
