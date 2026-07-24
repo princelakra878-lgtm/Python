@@ -18,14 +18,3 @@ elif mood == "excited":
 else:
     print("🙂 Have a wonderful day and take care of yourself!")
 
-advice = {
-    "happy": "😊 Keep smiling and spread positivity!",
-    "sad": "💙 Stay strong. Tomorrow is a new day!",
-    "angry": "😌 Take a deep breath and stay calm.",
-    "tired": "😴 Get enough sleep and relax.",
-    "excited": "🎉 Enjoy every moment!"
-}
-
-mood = input("Enter your mood: ").lower()
-
-print(advice.get(mood, "🙂 Have a great day!"))
